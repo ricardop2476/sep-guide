@@ -6,20 +6,9 @@ $(window).scroll(function() {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
 });
-
-//jQuery for page scrolling feature - requires jQuery Easing plugin
-// $(function() {
-//     $(document).on('click', 'a.page-scroll', function(event) {
-//         var $anchor = $(this);
-//         $('html, body').stop().animate({
-//             scrollTop: $($anchor.attr('href')).offset().top
-//         }, 1500, 'easeInOutExpo');
-//         event.preventDefault();
-//     });
-// });
-
+// Smooth page scroll
 $(function(){
-    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    $("#smooth-scroll, .navbar a, footer a[href='#myPage']").on('click', function(event) {
 
   // Make sure this.hash has a value before overriding default behavior
   if (this.hash !== "") {
