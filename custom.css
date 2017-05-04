@@ -14,6 +14,14 @@ html {
     padding-top: 5px;
 }
 
+/* Logo rotation when user hovers */
+.sepLogo:hover {
+    -webkit-transform: rotate(180deg) scale(1) skew(0deg) translate(0px);
+}
+.sepLogo {
+    -webkit-transition: All .8s ease-in-out;
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -26,8 +34,6 @@ html {
         padding: 0;
     }
 }
-
-/*
 
 .home-section {
     height: 100%;
