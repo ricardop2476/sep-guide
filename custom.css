@@ -37,7 +37,7 @@ html {
 
 .navbar a {
     font-family: 'Crete Round', serif;
-    /*font-size: 20px;*/
+    /*font-size: 23px;*/
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -59,6 +59,23 @@ html {
     }
 }
 
+@media(min-width:768px) {
+    .navbar a {
+    font-size: 23px;
+    }
+}
+
+@media(min-width:992px){
+    .navbar a {
+    font-size: 29px;
+    }
+}
+
+@media(min-width:1200px){
+    .navbar a {
+    font-size: 33px;
+    }
+}
 
 .home-section {
     height: 100%;
