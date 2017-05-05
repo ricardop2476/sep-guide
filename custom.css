@@ -12,6 +12,8 @@ html {
     display: block;
     margin: 0 auto;
     padding-top: 5px;
+    width: 111px;
+    height: 116px;
 }
 
 /* Logo rotation when user hovers */
@@ -20,6 +22,34 @@ html {
 }
 .sepLogo {
     -webkit-transition: All .8s ease-in-out;
+}
+
+@media(max-width:768px) {
+    .sepLogo {
+    width: 93px;
+    height: 98px;
+    }
+}
+
+@media(min-width:768px) {
+    .sepLogo {
+    width: 103px;
+    height: 109px;
+    }
+}
+
+@media(min-width:992px){
+    .sepLogo {
+    width: 107px;
+    height: 112px;
+    }
+}
+
+@media(min-width:1200px){
+    .sepLogo {
+    width: 111px;
+    height: 116px;
+    }
 }
 
 @media(min-width:767px) {
@@ -37,7 +67,7 @@ html {
 
 .navbar a {
     font-family: 'Crete Round', serif;
-    /*font-size: 23px;*/
+    font-size: 16px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -48,6 +78,7 @@ html {
     text-align: center;
 }
 
+/* media queries for nav bar */
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
