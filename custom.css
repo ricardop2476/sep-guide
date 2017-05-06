@@ -230,11 +230,15 @@ iframe {
     background: #fff;
 }
 
-.curriculum-section {
-    height: 100%;
+/*.curriculum-section {*/
+/*    height: 100%;*/
     /*padding-top: 150px;*/
     /*text-align: center;*/
-    background: #eee;
+/*    background: #eee;*/
+/*}*/
+
+.nine-section, .ten-section, .eleven-section, .twelve-section {
+    padding-top: 150px;
 }
 
 .contact-section {
