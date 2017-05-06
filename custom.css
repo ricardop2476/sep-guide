@@ -8,6 +8,10 @@ body h1 {
     text-align: left;
 }
 
+body h3 {
+    font-family: 'Crete Round', serif;
+}
+
 body p {
     font-family: 'ABeeZee', sans-serif;
     font-size: 18px;
@@ -228,8 +232,8 @@ iframe {
 
 .curriculum-section {
     height: 100%;
-    padding-top: 150px;
-    text-align: center;
+    /*padding-top: 150px;*/
+    /*text-align: center;*/
     background: #eee;
 }
 
