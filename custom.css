@@ -1,34 +1,26 @@
 body {
-    width: 100%;
-    height: 100%;
-}
-
-body h1 {
-    font-family: 'Crete Round', serif;
+    height: 60%;
     text-align: left;
 }
 
-body h3 {
+body h1, h3 {
     font-family: 'Crete Round', serif;
 }
 
 body p {
     font-family: 'ABeeZee', sans-serif;
     font-size: 18px;
-    text-align: left;
 }
 
 html {
-    width: 100%;
     height: 100%;
 }
+
 
 .sepLogo {
     display: block;
     margin: 0 auto;
-    padding-top: 5px;
-    width: 111px;
-    height: 116px;
+    padding-top: 3px;
 }
 
 /* Logo rotation when user hovers */
@@ -38,7 +30,8 @@ html {
 .sepLogo {
     -webkit-transition: All .8s ease-in-out;
 }
-/* mobile sep logo */
+
+/* Mobile sep logo */
 @media(max-width:768px) {
     .sepLogo {
     width: 93px;
@@ -53,7 +46,8 @@ html {
         height: 102px;
     }
 }
-/* logo desktop */
+
+/* Desktop sep logo */
 @media(min-width:768px) {
     .sepLogo {
     width: 103px;
@@ -75,6 +69,8 @@ html {
     }
 }
 
+
+/* Navigation Bar collapse on scroll */
 @media(min-width:767px) {
     .navbar {
         padding: 10px 0;
@@ -85,6 +81,19 @@ html {
 
     .top-nav-collapse {
         padding: 0;
+    }
+    
+}
+
+/* Navigation Bar collapse */
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
     }
 }
 
@@ -97,22 +106,12 @@ html {
     color: #a4a5a6;
 }
 
+/* Center navbar links for mobile */
 .nav>li>a {
     text-align: center;
 }
 
-/* media queries for nav bar */
-@media (min-width: 768px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-    }
-
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
-}
-
+/* Desktop font size for nav bar */
 @media(min-width:768px) {
     .navbar a {
     font-size: 23px;
@@ -131,16 +130,14 @@ html {
     }
 }
 
+
 .home-section {
-    padding-top: 278px;
-    background: #eee;
-    padding-bottom: 20px;
+    padding-top: 280px;
 }
 
-/* mobile */
+/* Mobile home section content */
 @media(max-width:768px) {
     .home-section {
-        /*height: 180%;*/
         padding-top: 135px;
     }
     
@@ -149,101 +146,45 @@ html {
     }
 
 }
-/* logo desktop */
+/* Desktop home section font sizes */
 @media(min-width:768px) {
-    .home-section {
-        /*height: 128%;*/
-    }
     .home-section p {
         font-size: 18px;
     }
 }
 
 @media(min-width:992px){
-    .home-section {
-        /*height: 100%;*/
-    }
     .home-section p {
         font-size: 18.3px;
     }
 }
 
 @media(min-width:1200px){
-    .home-section {
-        /*height: 100%;*/
-    }
     .home-section p {
         font-size: 20px;
     }
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 10px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
 
-    .top-nav-collapse {
-        padding: 0;
-    }
-}
-
-.home-section h1 {
-    font-family: 'Crete Round', serif;
-}
-
-.home-section p {
-    font-family: 'ABeeZee', sans-serif;
-}
-
+/* Vimeo embeded video */
 iframe {
     max-width: 100%;
     height: 450px;
-    display:block;
+    display: block;
 }
 
-.parents-section {
+
+.parents-section, .teachers-section, .students-section {
     padding-top: 160px;
     height: 100%;
-    /*padding-top: 150px;*/
-    /*text-align: center;*/
-    background: #fff;
 }
-
-.parents-section h1 {
-    font-family: 'Crete Round', serif;
-}
-
-.teachers-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-}
-
-.students-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-}
-
-/*.curriculum-section {*/
-/*    height: 100%;*/
-    /*padding-top: 150px;*/
-    /*text-align: center;*/
-/*    background: #eee;*/
-/*}*/
 
 .nine-section, .ten-section, .eleven-section, .twelve-section {
-    padding-top: 150px;
+    padding-top: 143px;
 }
 
 .contact-section {
-    height: 100%;
-    padding-top: 150px;
+    height: 45%;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
