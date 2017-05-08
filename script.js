@@ -6,9 +6,10 @@ $(window).scroll(function() {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
 });
+
 // Smooth page scroll
 $(function(){
-    $("#smooth-scroll, .navbar a, footer a[href='#myPage']").on('click', function(event) {
+  $("#smooth-scroll, .navbar a, footer a[href='#myPage']").on('click', function(event) {
 
   // Make sure this.hash has a value before overriding default behavior
   if (this.hash !== "") {

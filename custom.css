@@ -106,9 +106,24 @@ html {
     color: #a4a5a6;
 }
 
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #2972a3;
+}
 /* Center navbar links for mobile */
 .nav>li>a {
     text-align: center;
+}
+
+.dropdown-menu>li>a {
+    color: #a4a5a6;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #2972a3;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #2972a3;
 }
 
 /* Desktop font size for nav bar */
@@ -176,7 +191,6 @@ iframe {
 
 .parents-section, .teachers-section, .students-section {
     padding-top: 160px;
-    height: 100%;
 }
 
 .nine-section, .ten-section, .eleven-section, .twelve-section {
