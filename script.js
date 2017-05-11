@@ -1,8 +1,3 @@
-// Fades in home page content when page loads
-$(function(){
-  $('#home-content').hide().fadeIn(3000);
-});
-
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
@@ -12,8 +7,11 @@ $(window).scroll(function() {
     }
 });
 
-// Smooth page scroll
 $(function(){
+  // Fades in home page content when page loads
+  $('#home-content').hide().fadeIn(2000);
+
+  // Smooth page scroll
   $("#smooth-scroll, .navbar a, footer a[href='#myPage']").on('click', function(event) {
 
   // Make sure this.hash has a value before overriding default behavior
