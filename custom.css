@@ -192,6 +192,10 @@ iframe {
     padding-top: 160px;
 }
 
+.parents-section, .students-section, .ten-section, .twelve-section {
+    background-color: #f7f7f7;
+}
+
 .nine-section, .ten-section, .eleven-section, .twelve-section {
     padding-top: 143px;
 }
