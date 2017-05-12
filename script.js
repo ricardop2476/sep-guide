@@ -9,7 +9,7 @@ $(window).scroll(function() {
 
 $(function(){
   // Fades in home page content when page loads
-  $('#home-content').hide().fadeIn(2000);
+  $('#home-content').hide().fadeIn(2900);
 
   // Smooth page scroll
   $("#smooth-scroll, .navbar a, footer a[href='#myPage']").on('click', function(event) {
