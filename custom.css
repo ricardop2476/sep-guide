@@ -201,8 +201,12 @@ iframe {
 }
 
 .contact-section {
-    height: 45%;
+    height: 35%;
     text-align: center;
-    background: #eee;
     font-family: 'ABeeZee', sans-serif;
+    background: #eee;
+}
+
+.contact-section h1 {
+    font-size: 31px;
 }
