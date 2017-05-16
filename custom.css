@@ -200,7 +200,7 @@ iframe {
     padding-top: 143px;
 }
 
-.scratch, .p5js, .data {
+.scratch, .p5js, .data, .arduino {
     margin: 0 auto;
     display: block;
 }
@@ -212,6 +212,11 @@ iframe {
 .data {
     width: 100%;
     height: 550px;
+}
+
+.arduino {
+    width: 100%;
+    height: 600px;
 }
 
 .contact-section {
