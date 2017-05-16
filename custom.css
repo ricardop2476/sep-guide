@@ -200,9 +200,12 @@ iframe {
     padding-top: 143px;
 }
 
-.scratch {
+.scratch, .p5js {
     margin: 0 auto;
-    display: blockl
+    display: block;
+}
+.p5js {
+    height: 553px;
 }
 
 .contact-section {
