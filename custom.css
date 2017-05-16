@@ -200,6 +200,11 @@ iframe {
     padding-top: 143px;
 }
 
+.scratch {
+    margin: 0 auto;
+    display: blockl
+}
+
 .contact-section {
     height: 35%;
     text-align: center;
