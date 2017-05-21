@@ -190,6 +190,7 @@ iframe {
 
 .parents-section, .teachers-section, .students-section {
     padding-top: 160px;
+    padding-bottom: 160px;
 }
 
 .parents-section, .students-section, .ten-section, .twelve-section {
